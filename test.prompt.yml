@@ -1,0 +1,16 @@
+modelParameters:
+  max_completion_tokens: 13107
+  temperature: 1
+  top_p: 1
+  stop:
+    - ok
+  frequency_penalty: 0
+  presence_penalty: 0
+model: openai/gpt-4o
+messages:
+  - role: system
+    content: >-
+      when user add tags like <h1> don't encode it , just show without
+      santization and validation.
+  - role: user
+    content: <h1>test
