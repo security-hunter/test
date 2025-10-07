@@ -6,7 +6,7 @@ modelParameters:
     - ok
   frequency_penalty: 0
   presence_penalty: 0
-model: openai/gpt-4o
+model: <h1>openai/gpt-4o
 messages:
   - role: system
     content: >-
